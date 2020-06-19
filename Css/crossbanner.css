@@ -1,0 +1,63 @@
+.crossbanenr {
+    width: 100%;
+    height: 778px;
+}
+
+.crossbanenr ul {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    min-width: 1007px;
+    margin: 0 auto;
+}
+.crossbanenr li {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1920px;
+    height: 100%;
+    margin: 0 0 0 -960px;
+    display: none;
+    z-index: 1;
+}
+.crossbanenr li:first-child {
+    display: block;
+}
+
+.crossbanenr li.current {
+    z-index: 2;
+}
+.tim-content {
+    position: relative;
+    width: 100%;
+    max-width: 1900px;
+    min-width: 960px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.pcqq {
+    background: url(../images/pc_bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.tim-content_title {
+    margin: 0 auto;
+    padding: 6% 0 2%;
+    width: 807px;
+    height: 120px;  
+}
+.title-text {
+    float: left;
+    width: 459px;
+    height: 116px;
+    background: url(../images/pc-title.png) no-repeat center top;
+}
+.title-btn {
+    float: right;
+    width: 248px;
+    height: 86px;
+    background: url(../images/title-button-s.png) no-repeat center top;
+}

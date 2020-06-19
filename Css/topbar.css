@@ -1,0 +1,108 @@
+.topbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px; 
+    z-index: 900;
+}
+
+.toppic {
+    max-width: 1170px;
+    min-width: 980px;
+    width: 80%;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.toppic a:link,
+.toppic a:visited {
+    color: #333;
+}
+.topside {
+    float: left;
+    width: 59%;
+}
+
+.logoLink {
+    float: left;
+    display: block;
+    width: 106px;
+    height: 0px;
+    overflow: hidden;
+    padding-top: 76px;
+    font-size: 0;
+    background-color: transparent;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 92px 44px;
+}
+
+.topNav {
+    float: left;
+    width: 450px;
+    padding-left: 18px;
+}
+
+.topNav li {
+    float: left;
+    margin-left: 20px;
+}
+
+.topNav li a {
+    float: left;
+    padding: 0 20px;
+    line-height: 75px;
+    font-size: 1.125em;
+}
+
+.topNav li a:hover {
+    background: #12b7f5;
+}
+
+.topTool {
+    float: right;
+    width: 320px;
+    font-size: 0.875em;
+}
+
+.topTool a.barzc {
+    float: left;
+    width: 96px;
+    height: 0;
+    overflow: hidden;
+    padding: 39px 0 0 0;
+    margin: 18px 0 0 0;
+    background: transparent url(../images/icons.png) no-repeat 0 -244px;
+    text-align: center;
+    line-height: 39px;
+    color: #fff;
+}
+
+.topTool a.barzc:hover {
+    background: transparent url(../images/icons.png) no-repeat 0 -284px;
+    color: #fff;
+}
+
+.topTool ul {
+    float: right;
+    height: 40px;
+    padding-top: 6px;
+}
+
+.topTool li {
+    float: right;
+    margin-left: 30px;
+    position: relative;
+    line-height: 40px;
+}
+.loginPenel {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 120px;
+    height: 85px;
+    z-index: 100;
+}

@@ -1,0 +1,333 @@
+.activebg {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #fff;
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.txtwrap p {
+    font-size: 18px;
+    letter-spacing: 0.12em;
+}
+
+.qfigure {
+    width: 100%;
+    height: 584px;
+    background: #fff;
+}
+.qw960 {
+    position: relative;
+    width: 960px;
+    height: 584px;
+    margin: 0 auto;
+}
+
+.qcallAnimate {
+    position: absolute;
+    left: -32px;
+    bottom: 0;
+    width: 664px;
+    height: 763px;
+    background: transparent url(../images/pic1.png) no-repeat 0 0;
+}
+.qcall .txtwrap {
+    position: absolute;
+    right: 7px;
+    top: 115px;
+    width: 487px;
+}
+
+.qcall h2 {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 135px;
+    background: transparent url(../images/qcall_txt.png) no-repeat 0 0;
+}
+
+.qcall p {
+    width: 100%;
+    margin-bottom: 12px;
+    line-height: 25px;
+    text-align: right;
+    opacity: 0.6;
+}
+
+.figs {
+    width: 100%;
+    padding-top: 44px;
+    min-height: 77px;
+}
+
+.figs li {
+    padding: 58px 0 0;
+    color: #a0a0a0;
+    font-size: 14px;
+    text-align: center;
+}
+.qcall .figs {
+    background: transparent url(../images/qcall_figs.png) no-repeat 190px 41px;
+}
+
+.qcall .figs li {
+    float: right;
+    border-left: 1px solid #e9e9e9;
+}
+
+.qcall .figs li.f01 {
+    width: 80px;
+    text-align: right;
+}
+
+.qcall .figs li.f02 {
+    width: 109px;
+}
+
+.qcall .figs li.f03 {
+    width: 156px;
+    border: none;
+}
+
+.qcallWrap {
+    position: relative;
+    width: 251px;
+    height: 446px;
+    overflow: hidden;
+    left: 57px;
+    top: 72px;
+}
+.qcallWrap .pic1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 255px;
+    height: 450px;
+    background: transparent url(../images/qcall_fig1.png) no-repeat 0 0;
+    z-index: 2;
+    opacity: 0;
+    filter: Alpha(opacity=0);
+}
+
+.qcallbtn {
+    position: absolute;
+    left: 200px;
+    top: 295px;
+    width: 30px;
+    height: 30px;
+    background: transparent url(../images/point.png) no-repeat 0 0;
+    z-index: 1;
+    opacity: 0;
+    filter: Alpha(opacity=0);
+}
+
+.qfileAnimate {
+    position: absolute;
+    right: -100px;
+    bottom: 104px;
+    width: 597px;
+    height: 330px;
+    background: transparent url(../images/pic2.png) no-repeat 0 0;
+}
+.qfile .txtwrap {
+    position: absolute;
+    left: 7px;
+    top: 115px;
+    width: 450px;
+}
+
+.qfile h2 {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 140px;
+    background: transparent url(../images/txt.png) no-repeat 0 0;
+}
+
+.qfile p {
+    width: 90%;
+    margin-bottom: 12px;
+    padding-left: 5px;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+.qfile .figs {
+    background: transparent url(images/qfile_figs.png) no-repeat 7px 41px;
+}
+
+.qfile .figs li {
+    float: left;
+    border-right: 1px solid #e9e9e9;
+}
+
+.qfile .figs li.f01 {
+    width: 94px;
+    text-align: left;
+    text-indent: 12px;
+}
+.qfile .figs li.f02 {
+    width: 112px;
+}
+
+.qfile .figs li.f03 {
+    width: 108px;
+    border: none;
+}
+.qfileWrap {
+    position: relative;
+    left: 27px;
+    top: 259px;
+    width: 328px;
+    height: 280px;
+}
+
+.qfileWrap .pic1 {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 275px;
+    height: 83px;
+    background: transparent url(../images/qfile_fig1.png) no-repeat 0 0;
+    opacity: 0;
+}
+
+.qfileWrap .pic2 {
+    position: absolute;
+    right: 12px;
+    top: 114px;
+    width: 140px;
+    height: 118px;
+    background: transparent url(../images/qfile_fig2.png) no-repeat 0 0;
+    opacity: 0;
+}
+
+.qfbar {
+    position: absolute;
+    left: 78px;
+    top: 71px;
+    width: 194px;
+    height: 3px;
+    overflow: hidden;
+    background: #e6e6e6;
+    opacity: 0;
+}
+
+.qfbar .bar {
+    width: 30%;
+    height: 3px;
+    background: #5be10b;
+}
+
+/*qblog*/
+.qblogAnimate {
+    position: absolute;
+    left: 88px;
+    bottom: 0;
+    width: 344px;
+    height: 506px;
+    background: transparent url(../images/pic3.png) no-repeat -30px 0;
+}
+
+.qblog .txtwrap {
+    position: absolute;
+    right: 7px;
+    top: 120px;
+    width: 495px;
+}
+
+.qblog h2 {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 135px;
+    background: transparent url(../images/qblog_txt.png) no-repeat 0 0;
+}
+
+.qblog p {
+    width: 100%;
+    margin-bottom: 12px;
+    line-height: 25px;
+    text-align: right;
+    opacity: 0.6;
+}
+
+.qblog .figs {
+    background: transparent url(../images/qblog_figs.png) no-repeat 228px 41px;
+}
+
+.qblog .figs li {
+    float: right;
+    border-left: 1px solid #e9e9e9;
+}
+
+.qblog .figs li.f01 {
+    width: 80px;
+    text-align: right;
+}
+
+.qblog .figs li.f02 {
+    width: 105px;
+}
+
+.qblog .figs li.f03 {
+    width: 106px;
+    border: none;
+}
+
+.qblogWrap {
+    position: relative;
+    left: 0;
+    top: 217px;
+    width: 291px;
+    height: 150px;
+}
+
+.qblogWrap div {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.qblogWrap .pic1 {
+    left: -122px;
+    background: transparent url(../images/qblog_fig1.png) no-repeat 0 0;
+    opacity: 0;
+}
+
+.qblogWrap .pic2 {
+    left: 70px;
+    background: transparent url(../images/qblog_fig2.png) no-repeat 0 0;
+    opacity: 0;
+}
+
+.qblogWrap .pic3 {
+    right: -119px;
+    background: transparent url(../images/qblog_fig3.png) no-repeat 0 0;
+    opacity: 0;
+}
+
+.fisrtbg {
+    background-image: url(../images/fisrtbg.jpg);
+}
+
+.secondbg {
+    background-image: url(../images/avd.jpg);
+}
+
+.thirdbg {
+    background-image: url(../images/blog.jpg);
+}
+.content {
+    width: 100%;
+}
+
+.content h1 {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 280px;
+    background: #fff url(../images/brand.png) no-repeat center top;
+}
